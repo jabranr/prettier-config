@@ -18,6 +18,9 @@
     "name": "Jabran Rafique",
     "email": "hello@jabran.me"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jabranr/prettier/issues"
