@@ -1,15 +1,15 @@
 # Prettier config
 
-This is a `prettier` config as package for consistency usage across different projects. This works similar to `.prettierrc` file in a project.
+Prettier configuration for consistent format across all different projects.
 
-> Highely opinionated for personal use and may change any time without any announcements or warnings. **Use at your own risk.**
+> Highely opinionated for personal use and may change any time without any announcements or warnings. Use at own risk.
 
 # Usage
 
 Install the package
 
 ```shell
-npm i @jabranr-lab/prettier
+npm i -D @jabranr-lab/prettier
 ```
 
 Add reference to your `package.json` file
