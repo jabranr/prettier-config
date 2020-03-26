@@ -1,6 +1,6 @@
 {
   "name": "@jabranr-lab/prettier",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Prettier config",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,8 @@
     "url": "https://github.com/jabranr/prettier-config/issues"
   },
   "homepage": "https://github.com/jabranr/prettier-config#readme",
-  "devDependencies": {
-    "prettier": "^1.18.2"
+  "devDependencies": {},
+  "dependencies": {
+    "prettier": "^2.0.2"
   }
 }
