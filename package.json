@@ -28,6 +28,7 @@
   "homepage": "https://github.com/jabranr/prettier-config#readme",
   "devDependencies": {},
   "dependencies": {
+    "@prettier/plugin-xml": "^0.12.0",
     "prettier": "^2.1.2"
   }
 }
