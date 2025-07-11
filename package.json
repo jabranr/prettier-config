@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "tsx index.spec.js",
-    "format": "prettier --write .",
-    "prepare": "husky"
+    "format": "prettier --config ./index.js --write"
   },
   "repository": {
     "type": "git",
@@ -32,7 +31,6 @@
   "homepage": "https://github.com/jabranr/prettier-config#readme",
   "dependencies": {
     "@prettier/plugin-xml": "*",
-    "husky": "^9.1.7",
     "prettier": "*"
   },
   "volta": {
@@ -40,7 +38,7 @@
   },
   "lint-staged": {
     "*.{js,ts,jsx,tsx,json,md}": [
-      "prettier --check"
+      "npm run format"
     ],
     "*.js": [
       "npm t"
