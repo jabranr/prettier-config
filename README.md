@@ -9,14 +9,14 @@ Prettier configuration for consistent format across all different projects.
 Install the package
 
 ```shell
-npm i -D @jabranr-lab/prettier
+npm i -D @jabraf/prettier
 ```
 
 Add reference to your `package.json` file
 
 ```json
 {
-  "prettier": "@jabranr-lab/prettier"
+  "prettier": "@jabraf/prettier"
 }
 ```
 
