@@ -32,6 +32,7 @@
   "homepage": "https://github.com/jabranr/prettier-config#readme",
   "dependencies": {
     "@prettier/plugin-xml": "*",
+    "husky": "^9.1.7",
     "prettier": "*"
   },
   "volta": {
@@ -46,7 +47,6 @@
     ]
   },
   "devDependencies": {
-    "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
     "tsx": "^4.20.3"
   }
